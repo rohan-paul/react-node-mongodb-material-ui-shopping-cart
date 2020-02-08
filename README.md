@@ -1,4 +1,4 @@
-### A shopping cart built with React (with Typescript), Material-UI, Node, MongoDB, Express
+### A shopping cart built with React, Redux (with Typescript), Material-UI, Node, MongoDB, Express
 
 #### To install locally
 

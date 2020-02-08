@@ -21,7 +21,7 @@
 }
 
 .login-modal .form h1 {
-  color: #00BCD4;
+  color: #ff8c00;
 }
 
 .login-modal .form .btn {
@@ -33,6 +33,6 @@
 }
 
 .login-modal .form a {
-  color: #00BCD4;
+  color: #ff8c00;
   cursor: pointer;
 }

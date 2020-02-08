@@ -21,4 +21,3 @@ export type filterValues =
   '540x960' | '1080x1920' | '1125x2436' | '1440x2560' | '1440x2880' | '1440x2960' |
   '8' | '12' | '13' | '16' |
   'quad_core' | 'hexa_core' | 'octa_core';
-  

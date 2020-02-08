@@ -58,7 +58,7 @@
 
 .cart-items th {
   padding: 5px 5px;
-  background-color: #00BCD4;
+  background-color: #ff8c00;
   color: white;
   text-align: left;
 }
@@ -74,7 +74,7 @@
 .cart-items td {
   padding: 12px 5px;
   text-align: left;
-  border-bottom: 1px solid #00BCD4;
+  border-bottom: 1px solid #ff8c00;
 }
 
 .cart-items td:nth-child(4) {

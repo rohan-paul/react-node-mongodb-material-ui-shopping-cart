@@ -4,21 +4,21 @@ const Product = require('../models/Product');
 const products = [
   {
     info: {
-      name: 'Apple iPhone 8 Plus',
+      name: 'Apple MacBook Pro 2020',
       dimensions: '158.4 x 78.1 x 7.5 mm',
-      weight: '202 g',
+      weight: '1202 g',
       displayType: 'LED-backlit IPS LCD, capacitive touchscreen, 16M colors',
-      displaySize: '5.5"',
+      displaySize: '13.5"',
       displayResolution: '1080 x 1920 pixels',
-      os: 'iOS 11',
+      os: 'ios',
       cpu: 'Hexa-core (2x Monsoon + 4x Mistral)',
       internalMemory: '256 GB',
-      ram: '3 GB',
+      ram: '8 GB',
       camera: 'Dual: 12 MP (f/1.8, 28mm, OIS) + 12 MP (f/2.8, 57mm)',
       batery: 'Non-removable Li-Ion 2691 mAh battery (10.28 Wh)',
       color: 'White',
-      price: 700,
-      photo: '/img/apple_iphone_8_plus.jpg'
+      price: 1345,
+      photo: '/img/macbook-pro-1.jpg'
     },
     tags: {
       priceRange: '500-750',
@@ -35,21 +35,21 @@ const products = [
   },
   {
     info: {
-      name: 'Apple iPhone X',
-      dimensions: '143.6 x 70.9 x 7.7 mm',
-      weight: '174 g',
+      name: 'Apple MacBook Pro 2019',
+      dimensions: '1143.6 x 700.9 x 5.7 mm',
+      weight: '1874 g',
       displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
       displaySize: '5.8"',
       displayResolution: '1125 x 2436 pixels',
-      os: 'iOS 11.1.1',
+      os: 'ios',
       cpu: 'Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral)',
       internalMemory: '256 GB',
-      ram: '3 GB',
+      ram: '8 GB',
       camera: 'Dual: 12 MP (f/1.8, 28mm) + 12 MP (f/2.4, 52mm)',
       batery: 'Non-removable Li-Ion 2716 mAh battery (10.35 Wh)',
       color: 'Black',
-      price: 950,
-      photo: '/img/apple_iphone_x.jpg'
+      price: 1950,
+      photo: '/img/apple_macbook-2.jpg'
     },
     tags: {
       priceRange: '750>',
@@ -66,7 +66,7 @@ const products = [
   },
   {
     info: {
-      name: 'HTC U11',
+      name: 'Macbook Pro 17inch',
       dimensions: '153.9 x 75.9 x 7.9 mm',
       weight: '169 g',
       displayType: 'Super LCD5 capacitive touchscreen, 16M colors',
@@ -80,13 +80,13 @@ const products = [
       batery: 'Non-removable Li-Ion 3000 mAh battery',
       color: 'Ice White',
       price: 450,
-      photo: '/img/htc_u11.jpg'
+      photo: '/img/macbook-pro-3.jpg'
     },
     tags: {
       priceRange: '250-500',
       brand: 'htc',
       color: 'white',
-      os: 'android',
+      os: 'ios',
       internalMemory: '128',
       ram: '6',
       displaySize: '5.5',
@@ -97,7 +97,7 @@ const products = [
   },
   {
     info: {
-      name: 'Huawei Mate 10 Pro',
+      name: 'MacBook Pro 15.5inch',
       dimensions: '154.2 x 74.5 x 7.9 mm',
       weight: '178 g',
       displayType: 'AMOLED capacitive touchscreen, 16M colors',
@@ -111,13 +111,13 @@ const products = [
       batery: 'Non-removable Li-Po 4000 mAh battery',
       color: 'Titanium Gray',
       price: 800,
-      photo: '/img/huawei_mate_10_pro.jpg'
+      photo: '/img/macbook-pro-4.jpg'
     },
     tags: {
       priceRange: '750>',
       brand: 'huawei',
       color: 'grey',
-      os: 'android',
+      os: 'ios',
       internalMemory: '128',
       ram: '6',
       displaySize: '6.0',
@@ -128,7 +128,7 @@ const products = [
   },
   {
     info: {
-      name: 'Huawei P10',
+      name: 'Dell 16GB',
       dimensions: '145.3 x 69.3 x 7 mm',
       weight: '145 g',
       displayType: 'IPS-NEO LCD capacitive touchscreen, 16M colors',
@@ -142,7 +142,7 @@ const products = [
       batery: 'Non-removable Li-Ion 3200 mAh battery',
       color: 'Mystic Silver',
       price: 680,
-      photo: '/img/huawei_p10.jpg'
+      photo: '/img/dell-1.png'
     },
     tags: {
       priceRange: '500-750',
@@ -159,7 +159,7 @@ const products = [
   },
   {
     info: {
-      name: 'LG G6',
+      name: 'Dell i5',
       dimensions: '148.9 x 71.9 x 7.9 mm',
       weight: '163 g',
       displayType: 'IPS LCD capacitive touchscreen, 16M colors',
@@ -173,7 +173,7 @@ const products = [
       batery: 'Non-removable Li-Po 3300 mAh battery',
       color: 'Ice Platinum',
       price: 800,
-      photo: '/img/lg_g6.jpg'
+      photo: '/img/dell-2.png'
     },
     tags: {
       priceRange: '750>',
@@ -190,7 +190,7 @@ const products = [
   },
   {
     info: {
-      name: 'LG V30',
+      name: 'Dell i7 16GB',
       dimensions: '151.7 x 75.4 x 7.3 mm',
       weight: '158 g',
       displayType: 'P-OLED capacitive touchscreen, 16M colors',
@@ -204,7 +204,7 @@ const products = [
       batery: 'Non-removable Li-Po 3300 mAh battery',
       color: 'Aurora Black',
       price: 800,
-      photo: '/img/lg_v30.jpg'
+      photo: '/img/dell-3.jpg'
     },
     tags: {
       priceRange: '750>',
@@ -221,7 +221,7 @@ const products = [
   },
   {
     info: {
-      name: 'Samsung Galaxy A3',
+      name: 'Dell 17inch',
       dimensions: '130.1 x 65.5 x 6.9 mm',
       weight: '110.3 g',
       displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
@@ -235,7 +235,7 @@ const products = [
       batery: 'Non-removable Li-Ion 1900 mAh battery',
       color: 'Silver',
       price: 150,
-      photo: '/img/samsung_galaxy_a3.JPG'
+      photo: '/img/dell-4.png'
     },
     tags: {
       priceRange: '<250',
@@ -252,7 +252,7 @@ const products = [
   },
   {
     info: {
-      name: 'Samsung Galaxy Note 8',
+      name: 'Dell Touchscreen',
       dimensions: '162.5 x 74.8 x 8.6 mm',
       weight: '195.3 g',
       displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
@@ -266,7 +266,7 @@ const products = [
       batery: 'Non-removable Li-Ion 3300 mAh battery',
       color: 'Midnight Black',
       price: 800,
-      photo: '/img/samsung_galaxy_note_8.jpg'
+      photo: '/img/dell-5.png'
     },
     tags: {
       priceRange: '750>',
@@ -283,7 +283,7 @@ const products = [
   },
   {
     info: {
-      name: 'Samsung Galaxy S8',
+      name: 'Dell Inspiron ',
       dimensions: '148.9 x 68.1 x 8 mm',
       weight: '155 g',
       displayType: 'Super AMOLED capacitive touchscreen, 16M colors',
@@ -297,7 +297,7 @@ const products = [
       batery: 'Non-removable Li-Ion 3000 mAh battery',
       color: 'Midnight Black',
       price: 720,
-      photo: '/img/samsung_galaxy_s8.jpg'
+      photo: '/img/Dell-6.png'
     },
     tags: {
       priceRange: '500-750',

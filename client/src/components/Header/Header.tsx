@@ -28,7 +28,7 @@ const styles = {
     color: '#fff'
   },
   iconMenuBtn: {
-    color: '#00BCD4',
+    color: '#ff8c00',
     minWidth: '168px',
     textAlign: 'left'
   }
@@ -55,9 +55,9 @@ class Header extends React.Component<Props> {
 
     return (
       <div className="header">
-        <AppBar 
+        <AppBar
           className="title"
-          title="MOBILE SHOP"
+          title="LAPTOP SHOP"
           onTitleClick={() => history.push('/')}
           showMenuIconButton={false}
           zDepth={0}

@@ -1,7 +1,7 @@
 {
 	"name": "fullstack-shopping-cart",
 	"version": "1.0.0",
-	"description": "Mobile phones shopping cart",
+	"description": "Laptop shopping cart",
 	"main": "server.js",
 	"author": "Ivan Jakimovski",
 	"license": "ISC",
@@ -11,7 +11,7 @@
 	"scripts": {
 		"start:dev": "nodemon server.js",
 		"start:client": "npm run start:dev --prefix client",
-		"start:dev-full": "concurrently \"npm run start:dev\" \"npm run start:client\"",
+		"dev": "concurrently \"npm run start:dev\" \"npm run start:client\"",
 		"install:client": "npm install --prefix client",
 		"build": "npm run build --prefix client",
 		"start": "node server.js",
